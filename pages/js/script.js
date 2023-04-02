@@ -2,41 +2,51 @@
 
 var cardsArray = [{
   'name': 'shell',
-  'img': 'img/Cards/blueshell.png'
+  'img': 'img/blueshell.png'
 }, {
   'name': 'star',
-  'img': 'img/Cards/star.png'
+  'img': 'img/star.png'
 }, {
   'name': 'bobomb',
-  'img': 'img/Cards/bobomb.png'
+  'img': 'img/bobomb.png'
 }, {
   'name': 'mario',
-  'img': 'img/Cards/mario.png'
+  'img': 'img/mario.png'
 }, {
   'name': 'luigi',
-  'img': 'img/Cards/luigi.png'
+  'img': 'img/luigi.png'
 }, {
   'name': 'peach',
-  'img': 'img/Cards/peach.png'
+  'img': 'img/peach.png'
 }, {
   'name': '1up',
-  'img': 'img/Cards/1up.png'
+  'img': 'img/1up.png'
 }, {
   'name': 'mushroom',
-  'img': 'img/Cards/mushroom.png'
+  'img': 'img/mushroom.png'
 }, {
   'name': 'thwomp',
-  'img': 'img/Cards/thwomp.png'
+  'img': 'img/thwomp.png'
 }, {
   'name': 'bulletbill',
-  'img': 'img/Cards/bulletbill.png'
+  'img': 'img/bulletbill.png'
 }, {
   'name': 'coin',
-  'img': 'img/Cards/coin.png'
+  'img': 'img/coin.png'
 }, {
   'name': 'goomba',
-  'img': 'img/Cards/goomba.png'
+  'img': 'img/goomba.png'
 }];
+
+
+
+
+// starttimer function!!
+
+
+
+
+
 
 var gameGrid = cardsArray.concat(cardsArray).sort(function () {
   return 0.5 - Math.random();
