@@ -41,13 +41,6 @@ var cardsArray = [{
 
 
 
-// starttimer function!!
-
-
-
-
-
-
 var gameGrid = cardsArray.concat(cardsArray).sort(function () {
   return 0.5 - Math.random();
 });
@@ -104,6 +97,7 @@ var resetGuesses = function resetGuesses() {
 };
 
 grid.addEventListener('click', function (event) {
+
 
   var clicked = event.target;
 
